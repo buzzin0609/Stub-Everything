@@ -1,0 +1,28 @@
+{
+  "name": "stub-everything",
+  "version": "0.0.1",
+  "description": "Stub or mock complex objects and classes. Uses SinonJS",
+  "main": "stub-everything.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Will Busby <will0609@hotmail.com>",
+  "license": "ISC",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    }
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "jest": "^22.4.2",
+    "sinon": "^4.4.6",
+    "ts-jest": "^22.4.1",
+    "typescript": "^2.7.2"
+  }
+}
