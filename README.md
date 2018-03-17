@@ -1,5 +1,5 @@
 # Stub-Everything
-Never worry about Javascript and Typescript stubbing again. Stubs complex objects and classes all at once. (Uses SinonJS)[http://sinonjs.org/] for stub objects
+Never worry about Javascript and Typescript stubbing again. Stubs complex objects and classes all at once. [Uses SinonJS](http://sinonjs.org/) for stub objects
 
 ## Install
 
@@ -40,6 +40,5 @@ it('should fire method on complexObject', function() {
   
   expect(complexObject.someMethod.called).toEqual(true); //should be true
 });
-
 
 ```
