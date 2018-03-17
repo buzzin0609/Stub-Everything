@@ -36,7 +36,7 @@ afterEach(() => {
 });
 
 it('should fire method on complexObject', function() {
-  functionUsesComplexObject();
+  functionUsesComplexObject(complexObject);
   
   expect(complexObject.someMethod.called).toEqual(true); //should be true
 });
