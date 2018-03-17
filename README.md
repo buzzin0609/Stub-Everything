@@ -1,5 +1,5 @@
 # Stub-Everything
-Never worry about Javascript and Typescript stubbing again. Stubs complex objects and classes all at once. Uses SinonJS for stub objects
+Never worry about Javascript and Typescript stubbing again. Stubs complex objects and classes all at once. (Uses SinonJS)[http://sinonjs.org/] for stub objects
 
 ## Install
 
@@ -14,6 +14,10 @@ Never worry about Javascript and Typescript stubbing again. Stubs complex object
 ### stubEverything
 
 The default export. Will take an object/class/array and recursively stub every function in the prototype if a class, or the object properties if object literal.
+
+### restoreEverything
+
+Named export. Use to restore the stubs.
 
 #### Example
 
