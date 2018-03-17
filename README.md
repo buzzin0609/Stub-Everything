@@ -7,8 +7,8 @@ Never worry about Javascript and Typescript stubbing again. Stubs complex object
 
 ## API
 
-`stubEverything(thingToMock: object|array|T): object|array|T`
-`restoreEverything(thingToRestore: object|array|T): object|array|T`
+```stubEverything(thingToMock: object|array|T): object|array|T```
+```restoreEverything(thingToRestore: object|array|T): object|array|T```
 
 ### stubEverything
 
