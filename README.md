@@ -1,6 +1,10 @@
 # Stub-Everything
 Never worry about Javascript and Typescript stubbing again. Stubs complex objects and classes all at once. Uses SinonJS for stub objects
 
+## Install
+
+`npm install --save-dev stub-everything`
+
 ## API
 
 `stubEverything(thingToMock: object|array|T): object|array|T`
@@ -14,7 +18,7 @@ The default export. Will take an object/class/array and recursively stub every f
 
 ```javascript
 
-import stubEverything from 'stub-everything';
+import stubEverything, { restoreEverything } from 'stub-everything';
 import * as complexObject from './complexObject';
 import functionUsesComplexObject from './functionUsesComplexObject';
 
